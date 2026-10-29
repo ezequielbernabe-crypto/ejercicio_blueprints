@@ -1,11 +1,7 @@
+{% extends "base.html" %}
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Entrada del blog</title>
-</head>
-<body>
-    <h1>{{ titulo }}</h1>
-</body>
-</html>
+{% block titulo %}Entrada del blog{% endblock %}
+
+{% block contenido %}
+    <h2>{{ titulo }}</h2>
+{% endblock %}
