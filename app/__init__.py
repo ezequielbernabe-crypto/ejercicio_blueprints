@@ -6,4 +6,7 @@ def create_app():
     from app.admin import admin
     app.register_blueprint(admin)
 
+    from app.blog import blog
+    app.register_blueprint(blog)
+
     return app
